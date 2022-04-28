@@ -18,3 +18,9 @@
 - 직접 테이블도 생성할 예정 
 - ORM을 사용하지 않겠다. 
 - 서비스 안만들 예정
+- EntityManager 사용할 예정 (예전에 PrepareStatment 와 비슷한 것)
+
+### 테이블 생성하기
+```sql
+ CREATE TABLE Board (id INT PRIMARY KEY AUTO_INCREMENT, title VARCHAR(100), content LONGTEXt, nickname VARCHAR(20));
+```
